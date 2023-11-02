@@ -1,0 +1,58 @@
+body{
+    background-image: url(Paneer\ Lababdar\ \(video\ recipe\).jpg);
+    background-size:cover;
+    color: white;
+    align-items: center;
+}
+
+.order{
+    background-color: rgba(71, 71, 71, 0.59);
+    height: 110rex;
+    width: 50%;
+    display:flexbox ; 
+    align-items: center;
+    margin-left: 25%;
+}
+
+h3{
+    font-size: 50px;
+    font-style: oblique;text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-style: italic;text-align: center;
+}
+
+.fields{
+    margin:50px 60px 0px 40px ;
+    font-size:20px;
+}
+.fields input{
+    padding: 6px;
+    font-size: 15px;
+    margin: 10px 20px 20px 15px;
+}
+
+.btr{
+    font-size: 30px;
+    background-color: red;
+    border:none;
+    color: white;
+    padding: 30px;
+    margin: 50%;
+    
+}
+.btr:hover{
+    background-color: green;
+    font-size: 20px;
+    padding:6px;
+}
+    
+
+.input textarea{
+    padding: 5px;
+}
+
+form .btr{
+    margin-left: 20%;
+ }

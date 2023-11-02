@@ -1,0 +1,231 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3px;
+    margin: 0px;
+    text-align:centre;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display:flex;
+    margin-top: 15px;background-color: rgb(34, 14, 73);
+}
+.navbar{
+    display: flex; 
+    padding-top:15px;
+    background-color: rgb(33, 14, 73);
+}
+.container div {
+    background-color: rgb(33, 14, 73);
+}
+
+.container h1 ,a , i{
+    background-color: rgb(33, 13, 73);
+}
+
+.logo{
+    padding-left:50px;
+    width: 20rem;
+}
+
+.logo h1{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+    color: red;
+}
+
+.tabs{
+   padding-left:150px;
+   width:50rem;
+}
+
+.icons{
+    width:20%;
+}
+.main img{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 0%;
+    width: 600px ;
+}
+.mainText h2{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.mainText h3{
+    margin: 30px 10px 20px;
+}
+
+.main{
+    display: flex;
+}
+.mainText h1{
+    font-size: 45px;
+    padding:10px;
+    margin-top: 90px;
+    color: rgb(240, 244, 243);
+}
+
+.mainText h2{
+    font-size: 30px;
+    color:red;
+    padding-left:10px;
+}
+
+.mainText button{
+    background-color: rgb(242, 15, 15);
+    color:rgb(255, 255, 255);
+    padding: 8px;
+    margin: 10px 20px 10px 10px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px 10px 10px 10px ; 
+    border:none;
+}
+
+.mainText button:hover{
+    background-color: rgb(53, 247, 43);
+    color:rgb(250, 250, 250);
+    font-size: 25px;
+    border: none;
+}
+
+.foodcards{
+   text-align: left;
+   justify-items: center;
+   padding: 2px;
+}
+
+.card{
+    width: 33%;
+}
+
+.cards1{
+    display: flex;
+}
+
+.cards2{
+    display: flex;
+    justify-items: center;
+    text-align: left;
+    padding: 4px;
+    justify-content: center;
+}
+
+.foodtext{
+   padding-left: 65px;
+   padding-top:15px;
+   padding-bottom:20px;
+   width:20rem;
+}
+
+.card img{
+    align-items: center;
+    padding-bottom: 2px;
+    padding-left: 65px;
+}
+
+.card button{
+       background-color: rgb(221, 13, 13);
+       text-decoration: none;
+       border: none;
+       border-radius: 3px;
+       color:blanchedalmond;
+       padding: 6px;
+}
+
+.head h2{
+    color: rgb(243, 83, 4);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-style: italic;
+    margin: 0px 30px 40px 0px;
+}
+
+.card p{
+    margin-top: 30px;
+}
+
+.cards2{
+    margin-top:40px;
+}
+.cards1  button , .cards2 button{
+    margin: 20px 0px;
+}
+
+.navbar .tabs a , li{
+    text-decoration: none;
+    padding: 4px 5px 5px 5px;
+    background-color: rgb(21, 8, 48);
+    margin:3px;
+    border-radius: 3px;
+    font-size:18px;
+    color: rgb(247, 246, 246);
+    font-weight: bolder;
+}
+.tabs {
+    padding:5px;
+}
+
+.tabs a:hover , li{
+   color: rgb(250, 60, 2);
+}
+.cards1  button:hover , .cards2 button:hover{
+    background-color: rgb(14, 171, 14);
+}
+
+.upper{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.upper li{
+    margin: 0px;
+    padding: 2px;
+    color: rgb(161, 162, 162);
+   background-color: black;
+    font-size: small;
+    background-color: none;
+    font-weight:lighter;
+    text-decoration: none;
+    
+}
+.upper a{
+    background-color: black;
+    text-decoration: none;
+    color: rgb(161, 162, 162);
+} 
+.col1 , .col2 , .col3 , .col4 {
+    width: 60%;
+    font-style: italic;
+    text-align: left;  
+  
+}
+.upper ul li{
+    text-decoration: none;
+}
+.upper h5{
+    padding: 2px;
+    font-size:15px;
+    color: rgba(128, 128, 128, 0.662);
+}
+
+.lower_nav{
+    color:beige;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.lower_nav pre{
+    color: rgb(242, 242, 242);
+}
+ .Footer pre{
+    color: rgb(184, 184, 184);
+    background-color: rgb(52, 50, 50);
+}
